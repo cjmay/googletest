@@ -2622,7 +2622,7 @@ TEST(SynchronizationTest, CanCallMockMethodInAction) {
   // EXPECT_CALL() did not specify an action.
 }
 
-#ifdef GTEST_LANG_CXX11
+#if GTEST_LANG_CXX11
 
 class MockM {
  public:
